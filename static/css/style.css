@@ -1,0 +1,215 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI';
+    background-color: #1e0e3e;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff
+}
+
+.container {
+    max-width: 800px; /* Sesuaikan dengan lebar yang diinginkan */
+    margin: 0 auto; /* Memusatkan kontainer */
+    padding: 20px; /* Berikan padding untuk ruang di dalam */
+    border-radius: 8px; /* Sudut membulat */
+    background: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.container .img1text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .img1text .text{
+    color: #ffffff;
+}
+
+.container h1{
+    color: #FFD700;
+    font-size: 3.5rem;
+}
+
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: #cfcfcf;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.img1text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img1text .img {
+    max-width: 150%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: -50px;
+}
+
+img .img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.imgaran {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.imgaran:hover {
+    transform: scale(1.09);
+    transition: transform 0.3s ease;
+}
+
+section {
+  padding: 1rem 0;
+  border-bottom: 1px solid #444;
+}
+
+section h2 {
+    color: #ffffff;
+}
+
+section p {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer a {
+    display: inline-block;
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #2563eb;
+}
+
+footer a.bg-blue-500 {
+    background-color: #007cd5;
+}
+
+footer a.bg-blue-500:hover {
+    background-color: #003a6a;
+}
+
+footer a.bg-gray-500 {
+    background-color: #797979;
+}
+
+footer a.bg-gray-500:hover {
+    background-color: #4d4d4d;
+}
+
+footer a.bg-green-500 {
+    background-color: #00b54c;
+}
+
+footer a.bg-green-500:hover {
+    background-color: #14874e;
+}
+
+.identity p{
+    color: #ffffff;
+    font-size: 1.5rem;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #00ffff;
+}
+
+.text p {
+    max-width: 600px;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #eaeaea;
+}
+
+.judul{
+  color: #FFD700; /* Contoh warna emas terang */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+section .deskripsi{
+    color: #ffffff;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+section .deskripsi1{
+    color: #ffffff;
+    font-size: 1.25rem;
+    text-align: center;
+    font-style: italic;
+}
+
+section .title{
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container .imgend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+
